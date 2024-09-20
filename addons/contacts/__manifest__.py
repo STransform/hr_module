@@ -15,7 +15,7 @@ You can track your vendors, customers and other contacts.
     'data': [
         'views/contact_views.xml',
     ],
-    'application': True,
+    'application': False,
     'license': 'LGPL-3',
     'assets': {
         'web.assets_tests': [

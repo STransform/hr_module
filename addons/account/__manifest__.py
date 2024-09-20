@@ -78,7 +78,7 @@ You could use this simplified accounting in case you work with an (external) acc
         'demo/account_demo.xml',
     ],
     'installable': True,
-    'application': True,
+    'application': False,
     'post_init_hook': '_account_post_init',
     'assets': {
         'web._assets_primary_variables': [

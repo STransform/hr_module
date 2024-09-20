@@ -23,7 +23,7 @@
     ],
     'demo': ['data/maintenance_demo.xml'],
     'installable': True,
-    'application': True,
+    'application': False,
     'assets': {
         'web.assets_backend': [
             'maintenance/static/src/**/*',

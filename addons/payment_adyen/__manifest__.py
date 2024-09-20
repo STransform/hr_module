@@ -3,7 +3,7 @@
 {
     'name': 'Payment Provider: Adyen',
     'version': '2.0',
-    'category': 'Accounting/Payment Providers',
+    #'category': 'Accounting/Payment Providers',
     'sequence': 350,
     'summary': "A Dutch payment provider covering Europe and the US.",
     'description': " ",  # Non-empty string to avoid loading the README file.

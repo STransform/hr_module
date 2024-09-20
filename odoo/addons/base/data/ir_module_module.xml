@@ -29,7 +29,7 @@
             <field name="icon">/base/static/img/icons/timesheet_grid.png</field>
             <field name="website">https://www.odoo.com/app/timesheet?utm_source=db&amp;utm_medium=module</field>
         </record>
-
+<!-- 
         <record model="ir.module.module" id="base.module_account_accountant">
             <field name="name">account_accountant</field>
             <field name="sequence">30</field>
@@ -42,9 +42,9 @@
             <field name="to_buy" eval="True"/>
             <field name="icon">/base/static/img/icons/account_accountant.png</field>
             <field name="website">https://www.odoo.com/app/accounting?utm_source=db&amp;utm_medium=module</field>
-        </record>
+        </record> -->
 
-        <record model="ir.module.module" id="base.module_knowledge">
+        <!-- <record model="ir.module.module" id="base.module_knowledge">
             <field name="name">knowledge</field>
             <field name="sequence">30</field>
             <field name="shortdesc">Knowledge</field>
@@ -56,7 +56,7 @@
             <field name="to_buy" eval="True"/>
             <field name="icon">/base/static/img/icons/knowledge.png</field>
             <field name="website">https://www.odoo.com/app/knowledge?utm_source=db&amp;utm_medium=module</field>
-        </record>
+        </record> -->
 
         <record model="ir.module.module" id="base.module_industry_fsm">
             <field name="name">industry_fsm</field>
@@ -100,7 +100,7 @@
             <field name="website">https://www.odoo.com/app/appraisals?utm_source=db&amp;utm_medium=module</field>
         </record>
 
-        <record model="ir.module.module" id="base.module_marketing_automation">
+        <!-- <record model="ir.module.module" id="base.module_marketing_automation">
             <field name="name">marketing_automation</field>
             <field name="shortdesc">Marketing Automation</field>
             <field name="sequence">195</field>
@@ -112,7 +112,7 @@
             <field name="to_buy" eval="True"/>
             <field name="icon">/base/static/img/icons/marketing_automation.png</field>
             <field name="website">https://www.odoo.com/app/marketing-automation?utm_source=db&amp;utm_medium=module</field>
-        </record>
+        </record> -->
 
         <record model="ir.module.module" id="base.module_mrp_plm">
             <field name="name">mrp_plm</field>
@@ -128,7 +128,7 @@
             <field name="website">https://www.odoo.com/app/plm?utm_source=db&amp;utm_medium=module</field>
         </record>
 
-        <record model="ir.module.module" id="base.module_quality_control">
+        <!-- <record model="ir.module.module" id="base.module_quality_control">
             <field name="name">quality_control</field>
             <field name="shortdesc">Quality</field>
             <field name="sequence">120</field>
@@ -140,7 +140,7 @@
             <field name="to_buy" eval="True"/>
             <field name="icon">/base/static/img/icons/quality_control.png</field>
             <field name="website">https://www.odoo.com/app/quality?utm_source=db&amp;utm_medium=module</field>
-        </record>
+        </record> -->
 
         <record model="ir.module.module" id="base.module_sale_ebay">
             <field name="name">sale_ebay</field>
@@ -156,7 +156,7 @@
             <field name="website">https://www.odoo.com/app/sales?utm_source=db&amp;utm_medium=module</field>
         </record>
 
-        <record model="ir.module.module" id="base.module_planning">
+        <!-- <record model="ir.module.module" id="base.module_planning">
             <field name="name">planning</field>
             <field name="shortdesc">Planning</field>
             <field name="sequence">130</field>
@@ -168,7 +168,7 @@
             <field name="to_buy" eval="True"/>
             <field name="icon">/base/static/img/icons/planning.png</field>
             <field name="website">https://www.odoo.com/app/planning?utm_source=db&amp;utm_medium=module</field>
-        </record>
+        </record> -->
 
         <record model="ir.module.module" id="base.module_sale_subscription">
             <field name="name">sale_subscription</field>
@@ -226,7 +226,7 @@
             <field name="website">https://www.odoo.com/app/crm?utm_source=db&amp;utm_medium=module</field>
         </record>
 
-        <record model="ir.module.module" id="base.module_appointment">
+        <!-- <record model="ir.module.module" id="base.module_appointment">
             <field name="name">appointment</field>
             <field name="shortdesc">Appointments</field>
             <field name="sequence">215</field>
@@ -238,9 +238,9 @@
             <field name="to_buy" eval="True"/>
             <field name="icon">/base/static/img/icons/appointment.png</field>
             <field name="website">https://www.odoo.com/app/appointments?utm_source=db&amp;utm_medium=module</field>
-        </record>
+        </record> -->
 
-        <record model="ir.module.module" id="base.module_social">
+        <!-- <record model="ir.module.module" id="base.module_social">
             <field name="name">social</field>
             <field name="shortdesc">Social Marketing</field>
             <field name="sequence">175</field>
@@ -252,7 +252,7 @@
             <field name="to_buy" eval="True"/>
             <field name="icon">/base/static/img/icons/social.png</field>
             <field name="website">https://www.odoo.com/app/social-marketing</field>
-        </record>
+        </record> -->
 
         <record model="ir.module.module" id="base.module_mrp_workorder">
             <field name="name">mrp_workorder</field>

@@ -54,7 +54,7 @@
         'data/project_demo.xml',
     ],
     'installable': True,
-    'application': True,
+    'application': False,
     'post_init_hook': '_project_post_init',
     'assets': {
         'web.assets_backend': [

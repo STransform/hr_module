@@ -52,7 +52,7 @@
     'demo': [
         'data/mrp_demo.xml',
     ],
-    'application': True,
+    'application': False,
     'pre_init_hook': '_pre_init_mrp',
     'post_init_hook': '_create_warehouse_data',
     'uninstall_hook': 'uninstall_hook',

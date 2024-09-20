@@ -36,6 +36,6 @@
         'data/mailing_list_demo.xml',
         'data/mailing_demo.xml',
     ],
-    'application': True,
+    'application': False,
     'license': 'LGPL-3',
 }

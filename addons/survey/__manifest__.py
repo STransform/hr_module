@@ -56,7 +56,7 @@ sent mails with personal token for the invitation of the survey.
         'data/survey_demo_conditional.xml',
     ],
     'installable': True,
-    'application': True,
+    'application': False,
     'sequence': 220,
     'assets': {
         'survey.survey_assets': [

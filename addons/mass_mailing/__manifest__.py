@@ -83,7 +83,7 @@
     'demo': [
         'data/mass_mailing_demo.xml',
     ],
-    'application': True,
+    'application': False,
     'assets': {
         'mass_mailing.mailing_assets': [
             'mass_mailing/static/src/scss/mailing_portal.scss',
