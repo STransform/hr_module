@@ -1,4 +1,4 @@
-# OTERP
+# OTech-ERP
 
 This system consist of hr modules. Initially, it is launched with the HRMS module. Additional modules, such as finance will be integrated at a later stage.
   
