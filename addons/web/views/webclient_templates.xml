@@ -11,7 +11,7 @@
     <head>
         <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-        <title t-esc="OTech erp"/>
+        <title t-esc="title or 'Otes'"/>
         <link type="image/x-icon" rel="shortcut icon" t-att-href="x_icon or '/web/static/img/favicon.ico'"/>
         <script id="web.layout.odooscript" type="text/javascript">
             var odoo = {
@@ -81,7 +81,7 @@
             <a target="_blank"
                 t-attf-href="http://www.odoo.com?utm_source=db&amp;utm_medium=#{_utm_medium}"
                 class="badge text-bg-light">
-                <img alt="OTech"
+                <img alt="Odoo"
                     src="/web/static/img/odoo_logo_tiny.png"
                     width="62" height="20"
                     style="width: auto; height: 1em; vertical-align: baseline;"/>
@@ -105,7 +105,7 @@
             <t t-set="body_classname" t-value="'bg-100'"/>
             <t t-set="no_header" t-value="True"/>
             <t t-set="no_footer" t-value="True"/>
-
+            
             <div class="container py-5">
                 <div t-attf-class="card border-0 mx-auto bg-100 {{login_card_classes}} o_database_list" style="max-width: 300px;">
                     <div class="card-body">
@@ -122,6 +122,117 @@
                     </div>
                 </div>
             </div>
+            <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #1c2331"
+          >
+    <!-- Section: Social media -->
+    <section
+             class="d-flex justify-content-between p-4"
+             style="background-color: white;"
+             >
+      
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">OTech Engineering</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+             Lets own the future
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Products</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-white">Experts</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Software</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Website</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">OTech erp</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Useful links</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-white">OTech website</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">OTech website</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">OTECH ERP</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p><i class="fas fa-home mr-3"></i> Ayertena, Addis Ababa, Ethiopia</p>
+            <p><i class="fas fa-envelope mr-3"></i> info@otech.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 251 9xx</p>
+            <p><i class="fas fa-print mr-3"></i> + 251 1xx</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      Designed by:
+      <a class="text-white" href="https://otech.com/"
+         >OTech </a
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
         </t>
     </template>
 
