@@ -109,7 +109,7 @@ sudo nano /etc/hr.conf
 admin_passwd = .....
 db_host = False
 db_port = False
-db_user = odoo16
+db_user = otechuser
 db_password = False
 addons_path = /opt/odoo16/odoo16/addons,/opt/odoo16/odoo16/custom-addons
 xmlrpc_port = 8069
